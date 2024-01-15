@@ -1,0 +1,165 @@
+/*.*{ padding:0;margin:0; box-sizing: border-box;}*/
+font-family: 'Poppins', sans-serif;
+font-family: 'Kalam', cursive;
+
+header{
+  width:100%;
+  height:100vh
+  background:black;
+  background-size: cover;
+  color:white;
+  
+}
+nav{
+  width:90%;
+  height:100px;
+  background:red;
+  display: flex;
+  justify-content: space-between;
+  align-items: : center;
+  flex-wrap: wrap;
+  padding: 0 70px;
+  font-family: 'popins', sans-serif;
+  line-height: 65px;
+}
+
+.logo{
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color:white;
+}
+.menu a{
+  text-decoration: none;
+  color:white;
+  font-size: 1.2em;
+  padding: 0.5rem 1rem;
+}
+.menu a:nth-child(5){
+  background:#6ab04c;
+  border-radius: 8px;
+  margin: 0.1rem;
+}
+.menu i{
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.menu a:hover{
+  background:#6ab04c;
+  border-radius: 8px;
+  
+}
+.container{
+  width:90%;
+  height:900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 70px;
+  background: black;
+}
+.left{
+  flex-basis: 60%;
+  color:white;
+}
+.right{
+  flex-basis: 
+  
+}
+.left h2{
+  font-family: arial;
+  color:#6ab04c;
+}
+.left h1{
+  font-family:'Kalam', cursive;
+  font-size: 5em;
+}
+.left p{
+  line-height: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+#hire{
+  text-decoration: none;
+  background:#6ab04c;
+  color:white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  
+}
+#myp{
+  text-decoration: none;
+  color:white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  border: 1px dashed white;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  
+}
+#bio{
+  cursor: pointer;
+  padding: 150px 70px;
+  width: 100%;
+  heigh: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.leftbio{
+  flex-basis: 40%;
+}
+.rightbio{
+  flex-basis: 60%;
+}
+.leftbio img{
+  width:100%;
+  height: 700px;
+  border-radius: 8px;
+}
+.rightbio{
+  text-align:left;
+  padding: 0 40px;
+  
+}
+.rightbio p{
+  margin: 15px 0;
+  line-height: 2.5rem;
+}
+.rightbio h1{
+  font-size: 3rem;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: warp;
+  text-align: left;
+}
+#follow{
+  text-align: center;
+  
+}
+#follow i{
+  color:#6ab04c;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+.link-h{
+  text-align: center;
+  margin-top: 3rem;
+}
+#cv{
+  text-decoration: none;
+  color:black;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  border: 1px dashed grey;
+}
